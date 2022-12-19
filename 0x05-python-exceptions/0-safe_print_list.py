@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+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#!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
     i = 0
     for elem in range(x):
@@ -7,6 +7,6 @@ def safe_print_list(my_list=[], x=0):
         except IndexError:
             break
         else:
-            i+=1
+            i += 1
     print()
     return i
